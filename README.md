@@ -51,12 +51,12 @@ return msg;```
 
 **En una nueva terminal escribir los siguientes comandos**
 
-`sudo apt install mysql-server` para instalar mysql
-`sudo mysql` para entrar a la base mysql
-`CREATE USER 'newuser'@'localhost' IDENTIFIED BY 'password';` para crear un nuevo usuario y contraseña
-`GRANT ALL PRIVILEGES ON * . * TO 'newuser'@'localhost';` para otorgar los permisos al nuevo usuario
-`create databases codigoIoT;` para crear una base de datos
-`use codigoIoT;` para seleccionar la base de datos creada
+* `sudo apt install mysql-server` para instalar mysql
+* `sudo mysql` para entrar a la base mysql
+* `CREATE USER 'newuser'@'localhost' IDENTIFIED BY 'password';` para crear un nuevo usuario y contraseña
+* `GRANT ALL PRIVILEGES ON * . * TO 'newuser'@'localhost';` para otorgar los permisos al nuevo usuario
+* `create databases codigoIoT;` para crear una base de datos
+* `use codigoIoT;` para seleccionar la base de datos creada
 
 Crear una nueva tabla que contenga los campos:
 * id, fecha, nombre, temperatura, humedad
